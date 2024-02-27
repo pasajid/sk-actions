@@ -3,12 +3,12 @@ name: First workflow
 on: push   # Trigger the EVENTS (like merge, push)
 
 jobs:      # JOB
-  build:
-    runs-ons: ubuntu-latest (Where job runs
+ build:
+  runs-on: ubuntu-latest (Where job runs
 
-    steps:   # MArketplace
-     - uses: actions/checkout@v3
+  steps:   # MArketplace
+    - uses: actions/checkout@v3
 
-     - name: Run a sample github action
-       run: echo "This workflow run successfully"
+    - name: Run a sample github action
+      run: echo "This workflow run successfully"
   
