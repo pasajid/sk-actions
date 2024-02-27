@@ -4,7 +4,7 @@ on: push   # Trigger the EVENTS (like merge, push)
 
 jobs:      # JOB
   build:
-    run-ons: ubuntu-latest (Where job runs
+    runs-ons: ubuntu-latest (Where job runs
 
     steps:   # MArketplace
      - uses: actions/checkout@v3
